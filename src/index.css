@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.positioning{
+    top:100px;
+    left: -380px;
+    width: 500px;
+    height: 500px;
+    z-index: -1;
+}
+.position-list{
+    position: absolute;
+    right: 20px;
+    top: 0rem;
+    min-width: 165px;
+}
+.slide-bottom {
+    -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(60px);
+        transform: translateY(60px);
+    }
+}
+
+@keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        -webkit-transform: translateY(60px);
+        transform: translateY(60px);
+    }
+}
+
+.inputText{
+    @apply border border-BLACK outline-none bg-gray-200 p-1 pl-3 focus:bg-white
+}
+.button{
+    box-shadow: 0 4px rgb(184, 184, 184);
+}
+.photo{
+    @apply w-16 p-4 bg-blue-400 rounded-full mb-4
+}
+.link{
+    @apply text-blue-600 underline
+}
+
+.contact-shadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
