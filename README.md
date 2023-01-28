@@ -2,4 +2,4 @@
 
 My personal website which contains some projects I made and a description about me
 
-to see the website: https://admirable-gnome-41ad09.netlify.app/
+to see the website: https://yahyadalbahportfolio.netlify.app/
